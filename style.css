@@ -1,0 +1,23 @@
+*{padding:0;margin: 0;}
+body{background-color: transparent;
+background-position: center center;
+background-image: url(fondo5.jpg);
+color: #fff; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-size: auto cover; background-attachment: fixed;
+}
+.contenedor{position: relative; width: 580px; margin: 0 auto;
+ }
+a{text-decoration: none; color: #fff;}
+ul{list-style: none;}
+.menu{margin: 0 auto; padding: 50px 0; height: 400px;
+position: relative; width: 500px; background: rgba(0,0,0,.7);
+border-radius: 250px; transition: background-color 0.5s ease-in-out ;}
+
+.menu li{font-size: 40px; line-height: 50px; display: block;} 
+.menu:hover{background: rgba(0, 0, 0, 0.5);}
+.menu li a{color: transparent; white-space: nowrap; text-transform: uppercase;
+display: block; text-align: center; letter-spacing: 1px;
+text-shadow: 0 0 3px #fff; 
+transform: scale(1.5); transition: all 0.4s linear;} 
+.menu li a:hover{text-shadow: none; color: #fff;}
+.menu:hover li a{text-shadow: 0 0 10px  #fff;}
